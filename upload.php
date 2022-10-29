@@ -25,7 +25,7 @@
 
 <?php
 
-include_once 'include/dbconfig.php'; 
+include_once 'dbconfig.php'; 
 if(isset($_POST['ime'])){ 
     // Get the submitted form data 
     $ime = $_POST['ime']; 
